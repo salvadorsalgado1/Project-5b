@@ -1,0 +1,43 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package project5b;
+
+public class Student extends Person{
+    private int StudentID = 123456789;
+    private int credits = 54;
+    private double gradePointAvg = 3.7;
+    private String major = "Computer Science";
+    private String gradDate = "June 6 2018";
+    
+    public int getStudentID()
+    {
+        return StudentID;
+    }
+    public int getCredits()
+    {
+             return credits;   
+                
+    }
+    public double getGrade()
+    {
+            return gradePointAvg;    
+    }
+    
+    public String getGradDate()
+    {
+        return gradDate;
+    }
+    
+    public void displayInfo()
+    {
+       super.displayInfo();
+        System.out.println("\nStudent ID: " + getStudentID()
+                            
+                             + "\nCredits Completed: " + getCredits()
+                             + "\nExpected Graduation: " + getGradDate());
+        
+    }
+}
