@@ -1,0 +1,25 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package project5b;
+
+/**
+ *
+ * @author Student-HSLH133
+ */
+public class Identification {
+
+    
+    public static void main(String[] args) {
+     
+      UgradStudent g1 = new UgradStudent();
+      
+      g1.setNewAdress("678 New Address Way");//Changing my address
+      
+    g1.displayInfo();
+   //   s1.displayInfo();
+    }
+    
+}
