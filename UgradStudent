@@ -1,0 +1,40 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package project5b;
+
+/**
+ *
+ * @author Student-HSLH133
+ */
+public class UgradStudent extends Student {
+    private String major = "Computer Science";
+    private String university = "University of California Los Angeles";
+    private String degree = "Bachelor of Science";
+    
+    
+   public String getMajor()
+    {
+        return major;
+    }
+   public String getUniversity()
+   {
+       return university;
+   }
+   
+   public String getDegree()
+   {
+       return degree;
+   }
+   
+   public void displayInfo()
+   {
+       super.displayInfo();
+   System.out.println("\nMajor: " + getMajor()
+        
+                             + "\nInstitution: " + getUniversity()
+                             + "\nDegree: " + getDegree());
+   }
+}
