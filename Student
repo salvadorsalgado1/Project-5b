@@ -11,6 +11,8 @@ public class Student extends Person{
     private double gradePointAvg = 3.7;
     private String major = "Computer Science";
     private String gradDate = "June 6 2018";
+    private String university = "University of California Los Angeles";
+    private String newUniversity;
     
     public int getStudentID()
     {
@@ -30,14 +32,22 @@ public class Student extends Person{
     {
         return gradDate;
     }
-    
+    public String getUniversity()
+   {
+       return university;
+   }
+    public String setNewUniversity(String newUniversity)
+    {
+        return university = newUniversity;
+    }
     public void displayInfo()
     {
        super.displayInfo();
         System.out.println("\nStudent ID: " + getStudentID()
-                            
                              + "\nCredits Completed: " + getCredits()
+                            + "\nInstitution: " + getUniversity()
                              + "\nExpected Graduation: " + getGradDate());
         
     }
 }
+
