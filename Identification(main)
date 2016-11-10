@@ -16,10 +16,12 @@ public class Identification {
      
       UgradStudent g1 = new UgradStudent();
       
-      g1.setNewAdress("678 New Address Way");//Changing my address
-      
-    g1.displayInfo();
-   //   s1.displayInfo();
+      g1.setNewAdress("678 New Address Way, CA, 91300");
+      //Changing my address
+      g1.setNewUniversity("University of Southern California");
+      //Changed University
+      g1.displayInfo();
+   
     }
     
 }
