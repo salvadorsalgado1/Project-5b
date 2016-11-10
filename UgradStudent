@@ -11,7 +11,7 @@ package project5b;
  */
 public class UgradStudent extends Student {
     private String major = "Computer Science";
-    private String university = "University of California Los Angeles";
+    
     private String degree = "Bachelor of Science";
     
     
@@ -19,10 +19,7 @@ public class UgradStudent extends Student {
     {
         return major;
     }
-   public String getUniversity()
-   {
-       return university;
-   }
+   
    
    public String getDegree()
    {
@@ -34,7 +31,7 @@ public class UgradStudent extends Student {
        super.displayInfo();
    System.out.println("\nMajor: " + getMajor()
         
-                             + "\nInstitution: " + getUniversity()
+                            
                              + "\nDegree: " + getDegree());
    }
 }
