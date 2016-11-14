@@ -2,6 +2,10 @@
  *
  * @author Student-HSLH133
  */
+ 
+ package project5b;
+ 
+ 
 public class Person {
     private String fname = "Salvador";
     private String lname = "Salgado";
